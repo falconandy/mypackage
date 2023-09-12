@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:mypackage/mypackage.dart';
+import 'package:falconandy_mypackage/mypackage.dart';
 
 void main() {
   test('adds one to input values', () {
