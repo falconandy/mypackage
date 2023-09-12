@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/falconandy/mypackage/compare/v1.0.1...v1.0.2) (2023-09-12)
+
+
+### Bug Fixes
+
+* restore lock file ([fa86eea](https://github.com/falconandy/mypackage/commit/fa86eeaa64b11ab13ac459f739e21bd4e8419db4))
+
 ## [1.0.1](https://github.com/falconandy/mypackage/compare/v1.0.0...v1.0.1) (2023-09-12)
 
 
