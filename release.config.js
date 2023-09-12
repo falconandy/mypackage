@@ -49,11 +49,25 @@ module.exports = {
             ],
             "countMatches": true
           },
+          {
+            "files": ["example/pubspec.lock"],
+            "from": /(amplitude_flutter:(.|\n)*?)version: ".*"/,
+            "to": "$1version: \"${nextRelease.version}\"",
+            "results": [
+              {
+                "file": "example/pubspec.lock",
+                "hasChanged": true,
+                "numMatches": 3,
+                "numReplacements": 3
+              }
+            ],
+            "countMatches": true
+          },
         ]
       }
     ],
     ["@semantic-release/git", {
-      "assets": ["pubspec.yaml", "CHANGELOG.md", "lib/constants.dart"],
+      "assets": ["pubspec.yaml", "CHANGELOG.md", "lib/constants.dart", "example/pubspec.lock"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
   ],
