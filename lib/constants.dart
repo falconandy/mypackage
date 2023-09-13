@@ -1,4 +1,4 @@
 class Constants {
   static const packageName = 'falconandy-mypackage';
-  static const packageVersion = '1.0.2';
+  static const packageVersion = '1.0.3';
 }

@@ -1,3 +1,16 @@
+## [1.0.3](https://github.com/falconandy/mypackage/compare/v1.0.2...v1.0.3) (2023-09-13)
+
+
+### Bug Fixes
+
+* package description ([fa6b544](https://github.com/falconandy/mypackage/commit/fa6b544a520c2c186141e816a25a25e80fad899f))
+* publish workflow ([#2](https://github.com/falconandy/mypackage/issues/2)) ([1c2455b](https://github.com/falconandy/mypackage/commit/1c2455b41277fae0a29bfba777efc06c9d043911))
+* release workflow ([#3](https://github.com/falconandy/mypackage/issues/3)) ([f203423](https://github.com/falconandy/mypackage/commit/f203423e48cdd812ea13340eb84a39e9aba569e8))
+* release workflow ([#4](https://github.com/falconandy/mypackage/issues/4)) ([b0a36b9](https://github.com/falconandy/mypackage/commit/b0a36b9226c9ebd6c0735f6956a99cdc974e3775))
+* update package name in tests ([5f33bdf](https://github.com/falconandy/mypackage/commit/5f33bdfa27d7f0731315ba9bbbc9354381a133c6))
+* update release workflow ([71f860c](https://github.com/falconandy/mypackage/commit/71f860c0cb17af8d5a9fcb1337e188f2fdf44234))
+* updated README ([7f73a04](https://github.com/falconandy/mypackage/commit/7f73a046bf665851e5c3ffd9261d90d010fad84d))
+
 ## [1.0.2](https://github.com/falconandy/mypackage/compare/v1.0.1...v1.0.2) (2023-09-12)
 
 
