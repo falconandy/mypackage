@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/falconandy/mypackage/compare/v1.0.7...v1.0.8) (2023-09-13)
+
+
+### Bug Fixes
+
+* release workflow ([#9](https://github.com/falconandy/mypackage/issues/9)) ([3e8fe5d](https://github.com/falconandy/mypackage/commit/3e8fe5dd9c0ea651a0e1859ad51caf78dfb523cc))
+
 ## [1.0.7](https://github.com/falconandy/mypackage/compare/v1.0.6...v1.0.7) (2023-09-13)
 
 
