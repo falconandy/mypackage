@@ -26,8 +26,8 @@ jobs:
 
   release:
     name: Release
-#    permissions:
-#      id-token: write # Required for authentication using OIDC
+    permissions:
+      id-token: write # Required for authentication using OIDC
     runs-on: ubuntu-latest
     needs: [authorize]
     steps:
