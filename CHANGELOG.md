@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/falconandy/mypackage/compare/v1.0.8...v1.1.0) (2023-09-13)
+
+
+### Features
+
+* addTwo ([#10](https://github.com/falconandy/mypackage/issues/10)) ([49fcbad](https://github.com/falconandy/mypackage/commit/49fcbad1e1cd1a890e7681f757d14322b5b9b09c))
+
 ## [1.0.8](https://github.com/falconandy/mypackage/compare/v1.0.7...v1.0.8) (2023-09-13)
 
 
