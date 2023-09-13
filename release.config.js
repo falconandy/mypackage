@@ -68,7 +68,7 @@ module.exports = {
     ],
     ["@semantic-release/git", {
       "assets": ["pubspec.yaml", "CHANGELOG.md", "lib/constants.dart", "example/pubspec.lock"],
-      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
     }],
   ],
 }
