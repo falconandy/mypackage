@@ -36,13 +36,6 @@ jobs:
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
 
-      # This step sets the GitHub-signed OIDC token for pub.dev
-      # Workaround for https://github.com/dart-lang/setup-dart/issues/68
-      - name: Set up Dart
-        uses: dart-lang/setup-dart@v1
-        with:
-          sdk: stable
-
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -96,6 +89,13 @@ jobs:
           -p @google/semantic-release-replace-plugin@1.2.0 \
           -p @semantic-release/exec@5 \
           semantic-release
+
+      # This step sets the GitHub-signed OIDC token for pub.dev
+      # Workaround for https://github.com/dart-lang/setup-dart/issues/68
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
 
       - name: Publish to pub.dev --dry-run
         if: ${{ github.event.inputs.dryRun == 'true'}}
