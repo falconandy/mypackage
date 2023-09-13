@@ -1,6 +1,6 @@
 name: falconandy_mypackage
 description: A Flutter project to test publishing.
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/falconandy/mypackage
 
 environment:
